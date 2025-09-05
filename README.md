@@ -45,3 +45,5 @@ php artisan migrate --seed
 ```bash
 php artisan serve
 ```
+
+API runs at: http://localhost:8000/api
