@@ -26,10 +26,10 @@ Route::post('/users', [UserController::class, 'store']);
 Route::get('/users', [UserController::class, 'index']);
 
 // Get single user (with roles)
-Route::get('/users/{id}', [UserController::class, 'show']);
+// Route::get('/users/{id}', [UserController::class, 'show']);
 
 // Update user + roles
-Route::put('/users/{id}', [UserController::class, 'update']);
+// Route::put('/users/{id}', [UserController::class, 'update']);
 
 // Delete user
-Route::delete('/users/{id}', [UserController::class, 'destroy']);
+// Route::delete('/users/{id}', [UserController::class, 'destroy']);
