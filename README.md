@@ -10,7 +10,7 @@
 
 ```bash
 git clone https://github.com/jmcrisostomo/eastadvantage-assignment-backend-laravel.git
-cd backend
+cd eastadvantage-assignment-backend-laravel
 composer install
 cp .env.example .env
 php artisan key:generate
