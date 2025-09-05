@@ -9,7 +9,7 @@
 #### Clone the repository and install dependencies:
 
 ```bash
-git clone <your-backend-repo-url>
+git clone https://github.com/jmcrisostomo/eastadvantage-assignment-backend-laravel.git
 cd backend
 composer install
 cp .env.example .env
