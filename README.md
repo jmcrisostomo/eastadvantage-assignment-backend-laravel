@@ -30,7 +30,9 @@ DB_PASSWORD=
 #### Run migrations and seed roles:
 
 ```bash
-php artisan migrate --seed
+php artisan migrate
+
+php artisan db:seed --class=RoleSeeder
 ```
 
 #### This seeds the roles table with:
